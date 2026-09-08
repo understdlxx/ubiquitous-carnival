@@ -1,0 +1,36 @@
+{
+  "token": "PUT_YOUR_BOT_TOKEN_HERE",
+
+  "prefix": "!",
+
+  "owner_ids": [123456789012345678],
+
+  "allowed_guild_ids": [123456789012345678],
+  "allowed_bots": [123456789012345678],
+
+  "security": {
+    "min_account_age_days": 7,
+    "join_surge_count": 6,
+    "join_surge_window_seconds": 60,
+
+    "spam_messages": 7,
+    "spam_window_seconds": 5,
+    "max_mentions_per_message": 5,
+    "max_attachments_per_message": 6,
+    "duplicate_messages": 4,
+    "block_invites": true,
+
+    "heat_limit": 100,
+    "auto_timeout_minutes": 60,
+    "hard_timeout_minutes": 1440,
+
+    "nuke_threshold": 3,
+    "nuke_window_seconds": 30,
+    "thread_nuke_threshold": 4,
+    "allow_foreign_bots": false,
+    "block_foreign_bots": true,
+
+    "backup_interval_minutes": 20,
+    "warn_limit": 3
+  }
+}
